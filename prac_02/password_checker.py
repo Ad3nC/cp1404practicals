@@ -46,13 +46,12 @@ def is_valid_password(password):
         elif char in SPECIAL_CHARACTERS:
             count_special += 1
 
-        pass
-
     if count_digit == 0 or count_upper == 0 or count_lower == 0:
         return False
 
-    if count_special == 0:
-        return False
+    if SPECIAL_CHARS_REQUIRED:
+        if count_special == 0:
+            return False
 
     # if we get here (without returning False), then the password must be valid
     return True

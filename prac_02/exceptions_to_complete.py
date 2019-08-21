@@ -4,7 +4,7 @@ while not finished:
     try:
         result = int(input("enter a number"))
         finished = True
-        pass
+
     except ValueError:
         print("Please enter a valid integer.")
 print("Valid result is:", result)
