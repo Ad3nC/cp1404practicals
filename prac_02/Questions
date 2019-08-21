@@ -1,0 +1,13 @@
+Line 1 produced a random number between 5 and 20
+The smallest being 5 and the largest being 20
+Line 2 produced a random number between 3 and 10
+the smallest being 3 and largest being 10
+A 4 could not be produced by line two because the third parameter the 2 makes it so that each random instance is odd
+Line 3 produced a random number between 2.5 and 5.5
+The smallest being 2.5 and the largest being 5.5
+
+
+############################
+A value error will occur when the user enters a character that isn't an integer
+A zero division will occur when python tries to divide a number by zero and therefore can not
+
