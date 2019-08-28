@@ -5,8 +5,9 @@ def main():
     numbers.remove(2)
     numbers.append(1)
     print(numbers[2:])
-    if "9" is in numbers:
+    if 9 in numbers:
         print("ok")
+
 
 
 main()
