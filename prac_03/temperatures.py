@@ -12,19 +12,19 @@ def main():
     print(MENU)
 
 
-choice = input(">>> ").upper()
-while choice != "Q":
-    if choice == "C":
-        temperature = float(input("Celsius:"))
-        print("Result: {:.2f} F".format(fahrenheit_calculation(temperature)))
-    elif choice == "F":
-        temperature = float(input("Fahrenheit: "))
-        print("Result: {:.2f} C".format(celcius_calculation(temperature)))
-    else:
-        print("Invalid option")
-    print(MENU)
     choice = input(">>> ").upper()
-print("Thank you.")
+    while choice != "Q":
+        if choice == "C":
+            temperature = float(input("Celsius:"))
+            print("Result: {:.2f} F".format(fahrenheit_calculation(temperature)))
+        elif choice == "F":
+            temperature = float(input("Fahrenheit: "))
+            print("Result: {:.2f} C".format(celcius_calculation(temperature)))
+        else:
+            print("Invalid option")
+        print(MENU)
+        choice = input(">>> ").upper()
+    print("Thank you.")
 
 
 def fahrenheit_calculation(temperature):

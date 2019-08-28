@@ -12,8 +12,8 @@ def main():
 
 def score_calculator(score):
     if score < 0 or score > 100:
-        score = "invalid score"
-        return score
+        return "invalid score"
+
     elif score >= 90:
         score = "Excellent"
         return score
